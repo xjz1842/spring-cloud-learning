@@ -17,4 +17,10 @@ public class DemoController {
     public String sayHello(@RequestParam String name){
         return helloService.sayHiFromClient(name);
     }
+
+    @RequestMapping(value = "/serviceB",method = RequestMethod.GET)
+    public String say(@RequestParam String name){
+        return "I am service b";
+    }
+
 }

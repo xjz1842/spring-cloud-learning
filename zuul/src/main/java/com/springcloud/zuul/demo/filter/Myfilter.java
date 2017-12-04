@@ -8,7 +8,6 @@ import org.slf4j.LoggerFactory;
 
 import javax.servlet.http.HttpServletRequest;
 
-
 public class Myfilter extends ZuulFilter {
 
     private static Logger log = LoggerFactory.getLogger(Myfilter.class);
