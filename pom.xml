@@ -17,11 +17,10 @@
         <module>feign</module>
         <module>ribbon</module>
         <module>zuul</module>
-        <module>elk</module>
         <module>server-zipkin</module>
         <module>service-ui</module>
         <module>service-ui1</module>
-        <module>service-admin</module>
+        <module>logback</module>
     </modules>
 
     <parent>
