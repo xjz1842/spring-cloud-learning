@@ -7,7 +7,9 @@
 
     <appender name="LOGSTASH" class="net.logstash.logback.appender.LogstashTcpSocketAppender">
         <destination>127.0.0.1:4560</destination>
-        <encoder charset="UTF-8" class="net.logstash.logback.encoder.LogstashEncoder" />
+        <encoder charset="UTF-8" class="net.logstash.logback.encoder.LogstashEncoder">
+            <customFields>{"appname":"gateway-server"}</customFields>
+        </encoder>
     </appender>
 
     <!-- 彩色日志依赖的渲染类 -->
