@@ -12,7 +12,6 @@ public class LogApplication implements CommandLineRunner{
 
     private final static Logger logger= LoggerFactory.getLogger(LogApplication.class);
 
-
     public static void main(String[] args) {
         SpringApplication.run(LogApplication.class, args);
     }
